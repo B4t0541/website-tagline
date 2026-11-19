@@ -28,6 +28,7 @@ export default defineConfig(() => {
         },
       },
     ],
+    base:'/website-tagline/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
